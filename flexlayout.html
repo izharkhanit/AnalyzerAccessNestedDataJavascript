@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .nav-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-blue {
+            background-color: DodgerBlue;
+        }
+
+        .nav-left {
+            flex: 1;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .nav-right {
+            display: flex;
+            list-style-type: none;
+            justify-content: flex-end;
+        }
+
+        .nav-container>ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-container>ul>li {
+            list-style: none;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 45px;
+            font-size: 14px;
+        }
+
+        .nav-container>ul>li>a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="nav-container nav-blue">
+        <ul class="nav nav-item nav-left">
+            <li><a href="#">Company Name</a></li>
+        </ul>
+        <ul class="nav nav-container nav-right">
+            <!-- add required classes-->
+            <!-- add menu items -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+</body>
+
+</html>

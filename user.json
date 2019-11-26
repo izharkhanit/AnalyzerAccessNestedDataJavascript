@@ -1,0 +1,38 @@
+[
+    {
+        "userId": 15291,
+        "email": "Constantin_Kuhlman15@yahoo.com",
+        "friends": [
+            7001,
+            51417,
+            62289
+        ]
+    },
+    {
+        "userId": 7001,
+        "email": "Keven6@gmail.com",
+        "friends": [
+            15291,
+            51417,
+            62289,
+            66380
+        ]
+    },
+    {
+        "userId": 51417,
+        "email": "Margaretta82@gmail.com",
+        "friends": [
+            15291,
+            7001,
+            9250
+        ]
+    },
+    {
+        "userId": 62289,
+        "email": "Marquise.Borer@hotmail.com",
+        "friends": [
+            15291,
+            7001
+        ]
+    }
+]
