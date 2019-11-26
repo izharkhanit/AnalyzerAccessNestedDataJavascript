@@ -198,7 +198,7 @@ class MoviesAnalyzer {
         this.movies = movies;
         this.users = users;
     }
-    watchlistedByFriends(userId) {
+    fouriteListedByFriends(userId) {
         const user = this.users.filter(
             user => user.userId === userId
         )[0];
@@ -221,8 +221,8 @@ class MoviesAnalyzer {
         }
         return moviesFriends;
     }
-    topWatchlistedMoviesAmongFriends(userId) {
-        const friendsWatchlist = this.watchlistedByFriends(userId);
+    topFavouriteMoviesAmongFriends(userId) {
+        const friendsWatchlist = this.fouriteListedByFriends(userId);
         let topMovies = [];
         const sortedKeys = Object.keys(friendsWatchlist).sort((a, b) => parseInt(a) < parseInt(b));
         for (const key of sortedKeys) {
@@ -237,4 +237,4 @@ class MoviesAnalyzer {
 
 // test
 const analyzer = new MoviesAnalyzer(movies, users);
-console.log(analyzer.topWatchlistedMoviesAmongFriends(34139));
+console.log(analyzer.topFavouriteMoviesAmongFriends(34139));
