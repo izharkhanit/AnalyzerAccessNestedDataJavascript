@@ -2,7 +2,7 @@
 
 There are two JSON file:
 - users.json
-- data.json
+- movies.json
 
 Data analysis with following methods holding their conditions:
 
